@@ -1,0 +1,32 @@
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  background-color: #222;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App-header {
+  color: white;
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 100px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
