@@ -6,7 +6,7 @@ from yunpian.UserOperator import UserOperator
 from yunpian.FlowOperator import FlowOperator
 import sys
 import json
-sys.path.append('/opt/.prd.settings')
+sys.path.append('/opt/.settings')
 import config
 
 
